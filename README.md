@@ -1,8 +1,9 @@
 # MuWeave items
 
 This repository publishes selected MuWeave items as independent interactive
-pages at <https://georg184.github.io/items/>. Item 88 is available at
-<https://georg184.github.io/items/88/>.
+pages at <https://georg184.github.io/items/>. Published items include
+[Item 88: instantaneous velocity](https://georg184.github.io/items/88/) and
+[Item 108: normal vectors and line equations](https://georg184.github.io/items/108/).
 
 The maintained content lives in the canonical
 `ggpackages/muweave_library/items/` collection. Each `N.muweave` here is a
