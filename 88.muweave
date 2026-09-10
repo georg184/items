@@ -1,4 +1,6 @@
 µ! --title "Momentangeschwindigkeit"
 µ! --language de-CH
+µ! --config applet.base_url=https://georg184.github.io/items/
 
-µblock.text(item=88)
+µblock.applet(item=88)
+µblock.definition(item=107, title="Momentangeschwindigkeit")

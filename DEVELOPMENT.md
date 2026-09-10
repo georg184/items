@@ -17,8 +17,11 @@ is `muweave-suite/docs/AGENT_AUTHORING.md`; detailed author operations are in
 2. Create `N.muweave` using the existing numeric identity. Add title and
    language directives and the appropriate semantic placement. Use
    `µblock.text(item=N)` for text, `µblock.problem(item=N)` for a problem, or
-   another documented block kind when appropriate. The typed placement
-   overrides the item's default kind; do not turn every item into text.
+   another documented block kind when appropriate. Native applets use
+   `µblock.applet(item=N)` with their item-owned `description` part and initial
+   `µ! --config applet.base_url=https://georg184.github.io/items/`. Keep shared
+   teaching definitions outside the applet; Item 88 also includes Item 107.
+   The typed placement overrides the item's default kind; do not turn every item into text.
 3. Include a companion solution only when intended, using
    `µblock.solution(item=N)`. Other parts, external references, source-defined
    variables, required configuration, and dependent items may need explicit

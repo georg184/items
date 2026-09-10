@@ -19,12 +19,17 @@ The complete wrapper is:
 ```text
 µ! --title "Momentangeschwindigkeit"
 µ! --language de-CH
+µ! --config applet.base_url=https://georg184.github.io/items/
 
-µblock.text(item=88)
+µblock.applet(item=88)
+µblock.definition(item=107, title="Momentangeschwindigkeit")
 ```
 
-The two initial directives provide page metadata. The only content operation
-selects the existing item. General typography, margins, themes, and other
+The initial directives provide page metadata and the item publication root.
+The applet selects Item 88; its mathematical definition is shared Item 107.
+The PDF applet projection contains only its description and QR link. HTML
+retains the complete applet, with the definition placed separately afterward.
+General typography, margins, themes, and other
 appearance settings use the installed MuWeave defaults; explicit choices
 inside the item remain effective. PyHTML's normal worksheet controls are
 retained. Publication mode hides author working indicators.
