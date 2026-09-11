@@ -1,5 +1,6 @@
-µ! --title "Ortsänderung mit Rechtecksflächen annähern"
+µ! --title "Geschwindigkeitsfunktionen durch stückweise gleichförmige Bewegungen annähern"
 µ! --language de-CH
+µ! --persons-dir /mnt/data/sync/software/Python/ggpackages/muweave_library/persons
 µ! --config applet.base_url=https://georg184.github.io/items/
 
-µblock.applet(item=114, title="Ortsänderung mit Rechtecksflächen annähern")
+µblock.applet(item=114)
