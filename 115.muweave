@@ -1,0 +1,5 @@
+µ! --title "Tangentensteigung und Geschwindigkeitsfunktion"
+µ! --language de-CH
+µ! --config applet.base_url=https://georg184.github.io/items/
+
+µblock.applet(item=115)
