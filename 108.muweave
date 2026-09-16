@@ -2,4 +2,4 @@
 µ! --language de-CH
 µ! --config applet.base_url=https://georg184.github.io/items/
 
-µblock.applet(item=108)
+µblock.applet(item=108, html="inline", numbered=False)
