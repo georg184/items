@@ -1,0 +1,9 @@
+µ! --title "Die Parameterform erforschen"
+µ! --language de-CH
+µ! --config applet.base_url=https://georg184.github.io/items/
+
+µblock.applet(
+    item=263, html="inline", numbered=False,
+    title="Die Parameterform erforschen",
+)
+µblock.definition(item=259)
