@@ -32,8 +32,23 @@ The PDF applet projection contains only its description and QR link. HTML
 retains the complete applet, with the definition placed separately afterward.
 General typography, margins, themes, and other
 appearance settings use the installed MuWeave defaults; explicit choices
-inside the item remain effective. PyHTML's normal worksheet controls are
-retained. Publication mode hides author working indicators.
+inside the item remain effective. Publication mode hides author working indicators.
+
+## Standalone applet view
+
+New standalone applet wrappers select `µ! pyhtml --presentation=applet`, as
+Item 373 does, and place the content with `html="inline", numbered=False`.
+The window supplies the available width and the browser supplies
+normal zoom. There is no worksheet drawing palette or document-zoom toolbar.
+Companion definitions remain in the page. Every native applet also offers
+fullscreen, with its own fixed edge zoom, fit and exit controls. View changes
+retain the same slider values and simulation time.
+
+A lesson's default applet launch link opens the embedded copy in a new tab,
+using the same offline HTML file; the printed QR still points to the public
+page. Explicit inline placement remains part of the worksheet and shares its
+zoom and page scrolling. See the canonical MuVocab authoring guide for the
+presentation contract. Existing pages acquire it when deliberately rebuilt.
 
 ## Export locally
 

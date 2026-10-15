@@ -21,6 +21,10 @@ is `muweave-suite/docs/AGENT_AUTHORING.md`; detailed author operations are in
    `µblock.applet(item=N)` with their item-owned `description` part and initial
    `µ! --config applet.base_url=https://georg184.github.io/items/`. Keep shared
    teaching definitions outside the applet; Item 88 also includes Item 107.
+   Add `µ! pyhtml --presentation=applet` and use `html="inline", numbered=False`
+   for the standalone applet placement.
+   It keeps companion content and uses window width and browser zoom; every
+   applet offers fullscreen with fixed edge zoom/fit/exit controls.
    The typed placement overrides the item's default kind; do not turn every item into text.
 3. Include a companion solution only when intended, using
    `µblock.solution(item=N)`. Other parts, external references, source-defined
@@ -33,7 +37,9 @@ is `muweave-suite/docs/AGENT_AUTHORING.md`; detailed author operations are in
    an override. The helper always uses `--publish` and retains embedded AI.
 5. Inspect the whole rendered page and exercise its interactions. Check
    mathematical rendering, links, browser errors, offline startup, and the
-   embedded AI content to the extent relevant to the item. For Item 88 test
+   embedded AI content to the extent relevant to the item. Test real wheel
+   scrolling over the applet, fullscreen entry/exit, stable parameters and a
+   saved copy reopened offline. For Item 88 test
    both sliders, equal times, both endpoints, and a reversed interval. Compare
    the diagram and content with its normal MuWeave rendering. Do not change a
    consumer course document as an integration fixture. If author content
