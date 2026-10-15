@@ -1,0 +1,6 @@
+µ! --title "Orts- und Geschwindigkeitsdiagramme zuordnen"
+µ! --language de-CH
+µ! pyhtml --presentation=applet
+µ! --config applet.base_url=https://georg184.github.io/items/
+
+µblock.applet(item=375, html="inline", numbered=False)
