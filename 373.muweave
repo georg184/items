@@ -1,7 +1,6 @@
 µ! --title "Ortsfunktion und Bewegung"
 µ! --language de-CH
 µ! pyhtml --presentation=applet
-µ! --config applet.scale=1.4
 µ! --config applet.base_url=https://georg184.github.io/items/
 
 µblock.applet(item=373, html="inline", numbered=False)
