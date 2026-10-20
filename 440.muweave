@@ -1,0 +1,7 @@
+µ! --title "Funktionen entdecken"
+µ! --language de-CH
+µ! pyhtml --presentation=applet
+µ! pyhtml --math-renderer=mathjax
+µ! --config applet.base_url=https://georg184.github.io/items/
+
+µblock.applet(item=440, html="inline", numbered=False)
