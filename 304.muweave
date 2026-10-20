@@ -1,0 +1,7 @@
+µ! --title "Potenzfunktionen üben"
+µ! --language de-CH
+µ! pyhtml --presentation=applet
+µ! pyhtml --math-renderer=mathjax
+µ! --config applet.base_url=https://georg184.github.io/items/
+
+µblock.applet(item=304, html="inline", numbered=False)
