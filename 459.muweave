@@ -1,0 +1,7 @@
+µ! --title "Die Entstehung der Sinusfunktion"
+µ! --language de-CH
+µ! --config applet.base_url=https://georg184.github.io/items/
+µ! pyhtml --presentation=applet
+µ! pyhtml --math-renderer=mathjax
+
+µblock.applet(item=459, html="inline", numbered=False)
