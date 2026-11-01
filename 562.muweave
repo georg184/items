@@ -1,0 +1,7 @@
+µ! --title "Vertikalentest: Funktionen erkennen"
+µ! --language de-CH
+µ! --config ~solutions
+µ! --config applet.base_url=https://georg184.github.io/items/
+µ! pyhtml --presentation=applet
+
+µblock.applet(item=562, html="inline", numbered=False)
