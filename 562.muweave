@@ -1,7 +1,6 @@
-µ! --title "Vertikalentest: Funktionen erkennen"
+µ! --title "Quiz: Vertikalentest"
 µ! --language de-CH
 µ! --config ~solutions
-µ! --config applet.base_url=https://georg184.github.io/items/
-µ! pyhtml --presentation=applet
+µ! pyhtml --presentation=quiz
 
-µblock.applet(item=562, html="inline", numbered=False)
+µblock.quiz(item=562)
