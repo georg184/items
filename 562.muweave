@@ -1,4 +1,4 @@
-µ! --title "Quiz: Vertikalentest"
+µ! --title "Quiz: Funktionsgraphen"
 µ! --language de-CH
 µ! --config ~solutions
 µ! pyhtml --presentation=quiz

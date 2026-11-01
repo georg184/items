@@ -1,0 +1,6 @@
+µ! --title "Quiz: Umkehrfunktion"
+µ! --language de-CH
+µ! --config ~solutions
+µ! pyhtml --presentation=quiz
+
+µblock.quiz(item=564)
