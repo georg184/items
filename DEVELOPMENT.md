@@ -13,7 +13,9 @@ is `muweave-suite/docs/AGENT_AUTHORING.md`; detailed author operations are in
 
 1. Read this repository's `AGENTS.md`, the MuWeave authoring guide, the
    applicable MuVocab reference, the complete canonical item, included items,
-   and any context it relies on. Select only items requested for publication.
+   and any context it relies on. Select items changed in the current task
+   under the [standing authorization](AGENTS.md), or explicitly selected
+   for publication; preserve any explicit local-only limit.
 2. Create `N.muweave` using the existing numeric identity. Add title and
    language directives and the appropriate semantic placement. Use
    `µblock.text(item=N)` for text, `µblock.problem(item=N)` for a problem, or
@@ -47,7 +49,8 @@ is `muweave-suite/docs/AGENT_AUTHORING.md`; detailed author operations are in
 6. Add a relative `N/` link with a readable title to the root `index.html`.
    Keep the item's numeric URL stable. The index is ordinary maintained HTML;
    `N/index.html` is always generated.
-7. Review the diff and confirm publication authorization. Commit only the
+7. Review the diff and apply the [standing publication authorization](AGENTS.md)
+   without another push confirmation. Commit only the
    wrapper, verified export, intended index change, and related project files
    in this repository. Never include learner `.work` files or the complete
    private library. Follow the publication procedure below.
@@ -59,9 +62,13 @@ service workers or split its runtime into manually maintained assets.
 
 ## Commit and deployment
 
-An explicit request to publish authorizes the commit, push, and deployment
-needed for that request. Otherwise obtain publication authorization after
-preparing and verifying the concrete result.
+Follow the library's
+[automatic item-publication policy](../../../Python/ggpackages/muweave_library/AGENTS.md#automatic-item-publication).
+A completed item change includes its verified export, commit, push and
+deployment without a new permission exchange. Explicit preview-only or
+local-only requests stop before publication. Combine the affected items
+and their publication instructions in one coherent commit, leaving
+unrelated working-tree changes unstaged.
 
 ```bash
 git status --short

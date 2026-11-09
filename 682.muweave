@@ -1,0 +1,6 @@
+µ! --title "Warum staucht f(2x) den Graphen?"
+µ! --language de-CH
+µ! --config applet.base_url=https://georg184.github.io/items/
+µ! pyhtml --presentation=applet
+
+µblock.applet(item=682, html="inline", numbered=False)

@@ -10,7 +10,8 @@
 - Regenerate `N/index.html` with `scripts/export.py`; never hand-edit that
   generated document or recreate its graphics in another implementation.
 - Preserve existing user changes. Commit only this repository's files.
-- Publish only the selected, verified items. User authorization is required for
-  externally visible publication; an explicit request to publish already
-  supplies it. Follow the deployment through completion and verify the actual
-  public HTML and interactions.
+- Apply the library's
+  [standing item-publication authorization](../../../Python/ggpackages/muweave_library/AGENTS.md#automatic-item-publication).
+  Complete verified item changes with commit, push, deployment and public
+  verification without another confirmation. Honour explicit local-only
+  limits and publish only the affected items and related publication files.

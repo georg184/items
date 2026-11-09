@@ -11,7 +11,10 @@ small standalone wrapper. Its generated `N/index.html` is a complete PyHTML
 document with embedded fonts, mathematics, graphics, and browser runtime.
 The repository contains generated publication snapshots, not a second
 implementation of the items. A source change goes online only after export
-and publication.
+and publication. Agents complete that delivery automatically for normal
+item changes under the
+[standing publication policy](../../../Python/ggpackages/muweave_library/AGENTS.md#automatic-item-publication);
+explicit local-preview requests remain local.
 
 ## Item 88
 
