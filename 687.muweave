@@ -1,0 +1,5 @@
+µ! --title "Quiz: Trigonometrische Funktionen erkennen"
+µ! --language de-CH
+µ! --config ~solutions
+µ! pyhtml --presentation=quiz
+µblock.quiz(item=687)
