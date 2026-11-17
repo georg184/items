@@ -1,0 +1,12 @@
+µ! --title "Verschiebung in y-Richtung erkennen"
+µ! --language de-CH
+µ! --config ~solutions
+µ! --config applet.base_url=https://georg184.github.io/items/
+
+µblock.applet(
+    item=667,
+    url="https://georg184.github.io/items/667/?functions=sin,cos&function=sin&transformations=a,d,u,v&active=a,v&view=app",
+    description="Verändere den Faktor µm{µcolor[blue]{a}} und die Verschiebung µm{µcolor[blue]{v}} und beobachte ihre gemeinsame Wirkung auf den Graphen.",
+)
+
+µblock.exercise(item=689, numbered=False)

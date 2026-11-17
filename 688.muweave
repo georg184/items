@@ -1,0 +1,5 @@
+µ! --title "Streckung oder Stauchung?"
+µ! --language de-CH
+µ! --config ~solutions
+
+µblock.exercise(item=688, numbered=False)
