@@ -9,6 +9,8 @@
   Keep general appearance settings at MuWeave defaults unless requested.
 - Regenerate `N/index.html` with `scripts/export.py`; never hand-edit that
   generated document or recreate its graphics in another implementation.
+- Follow [Public overview](DEVELOPMENT.md#public-overview) when adding, replacing
+  or deprecating published items.
 - Preserve existing user changes. Commit only this repository's files.
 - Apply the library's
   [standing item-publication authorization](../../../Python/ggpackages/muweave_library/AGENTS.md#automatic-item-publication).

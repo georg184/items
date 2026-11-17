@@ -46,9 +46,8 @@ is `muweave-suite/docs/AGENT_AUTHORING.md`; detailed author operations are in
    the diagram and content with its normal MuWeave rendering. Do not change a
    consumer course document as an integration fixture. If author content
    changes, also perform its normal LaTeX/HTML/AI and PDF visual checks.
-6. Add a relative `N/` link with a readable title to the root `index.html`.
-   Keep the item's numeric URL stable. The index is ordinary maintained HTML;
-   `N/index.html` is always generated.
+6. Update the root `index.html` according to [Public overview](#public-overview),
+   including separate entries for deprecated items and their replacements.
 7. Review the diff and apply the [standing publication authorization](AGENTS.md)
    without another push confirmation. Commit only the
    wrapper, verified export, intended index change, and related project files
@@ -59,6 +58,28 @@ Each item page is one self-contained HTML artifact. It has no separately
 cached application CSS, JavaScript, fonts, or MathJax files that could become
 mixed across releases. Preserve this publication boundary and do not add
 service workers or split its runtime into manually maintained assets.
+
+## Public overview
+
+The root `index.html` is the public catalogue. Every published numeric item has
+exactly one independent entry whose main link shows its item number and a
+readable title, for example `Item 687: Trigonometrische Funktionen erkennen`,
+and points directly to its relative `N/` address. The index is maintained HTML;
+item pages remain generated exports.
+
+Order the complete catalogue by ascending numeric item ID, comparing IDs as
+integers rather than strings or titles. An item's description or a mention in
+another entry does not replace its own clickable entry.
+
+Deprecated items retain their separate entries, explicit `Deprecated` marking
+and unchanged numeric URLs. A replacement receives its own entry at its numeric
+position; it never hides or replaces the predecessor's catalogue entry. For
+example, deprecated 668 and replacement 687 retain their own numbered entries.
+
+Before publication, check that every published item has exactly one correctly
+linked entry and that the numeric order is complete. After deployment, compare
+the public overview with the local `index.html` and use a fresh browser to open
+the affected entries, including deprecated predecessors and replacements.
 
 ## Commit and deployment
 
