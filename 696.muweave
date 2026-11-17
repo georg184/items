@@ -1,0 +1,6 @@
+µ! --title "Sinusfunktion aus dem Graphen bestimmen"
+µ! --language de-CH
+µ! --config ~solutions
+
+µblock.exercise(item=696, numbered=False)
+µblock.solution(item=696, attached=True)

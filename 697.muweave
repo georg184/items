@@ -1,0 +1,6 @@
+µ! --title "Kosinusfunktion aus dem Graphen bestimmen"
+µ! --language de-CH
+µ! --config ~solutions
+
+µblock.exercise(item=697, numbered=False)
+µblock.solution(item=697, attached=True)
