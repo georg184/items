@@ -1,0 +1,6 @@
+µ! --title "Die Funktion f stellt sich vor"
+µ! --language de-CH
+µ! --config applet.base_url=https://georg184.github.io/items/
+µ! pyhtml --presentation=applet
+
+µblock.applet(item=713, html="inline", numbered=False)
