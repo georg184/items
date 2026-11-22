@@ -1,4 +1,4 @@
-µ! --title "Die Funktion f stellt sich vor"
+µ! --title "Funktionen"
 µ! --language de-CH
 µ! --config applet.base_url=https://georg184.github.io/items/
 µ! pyhtml --presentation=applet
