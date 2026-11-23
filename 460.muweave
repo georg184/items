@@ -3,4 +3,4 @@
 µ! --config applet.base_url=https://georg184.github.io/items/
 µ! pyhtml --presentation=applet
 
-µblock.applet(item=460, html="inline", numbered=False)
+µblock.applet(item=460, html="inline", numbered=False, variant="standalone")
