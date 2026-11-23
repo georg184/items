@@ -1,0 +1,7 @@
+µ! --title "Terme nachbauen"
+µ! --language de-CH
+µ! --config applet.base_url=https://georg184.github.io/items/
+µ! --config ~solutions
+µ! pyhtml --presentation=applet
+
+µblock.applet(item=719, html="inline", numbered=False)
